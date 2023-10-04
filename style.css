@@ -1,0 +1,110 @@
+body {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.formulario {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: #004bb3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #00a2ff;
+}
+
+button {
+    background-color: #046d00;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #00b30c;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo para la tabla de alumnos */
+
+.tabla{
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.tabla-alumnos {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tabla-alumnos th{
+    border: 2px solid black;
+    background-color: #00a2ff;
+    padding: 12px;
+}
+
+.tabla-alumnos td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.tabla-alumnos tr:nth-child(even) {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+
